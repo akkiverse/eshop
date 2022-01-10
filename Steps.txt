@@ -1,0 +1,9 @@
+terminal Command:
+    python3 -m venv eshvenv
+    source eshvenv/bin/activate
+    pip install django
+    django-admin startproject eshop
+    cd eshop
+    python manage.py startapp shop
+
+Added app 'shop'  in eshop/settings.py under INSTALLED_APPS by just mentioning 'shop'
